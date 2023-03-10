@@ -1,0 +1,11 @@
+Model Information:
+* title:	Earth Planet Model
+* source:	https://sketchfab.com/3d-models/earth-planet-model-cb680d38bee541a5ab4ef331e323fa2d
+* author:	GregoryDev (https://sketchfab.com/GregoryDevelopment)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Earth Planet Model" (https://sketchfab.com/3d-models/earth-planet-model-cb680d38bee541a5ab4ef331e323fa2d) by GregoryDev (https://sketchfab.com/GregoryDevelopment) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
