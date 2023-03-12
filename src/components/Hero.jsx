@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={` ${styles.heroHeadText} text-slate-900`}>Hi, I'm <span className='text-[#4A235A]'>Kamil</span> </h1>
+          <h1 className={` ${styles.heroHeadText} `}>Hi, I'm <span className='text-[#4A235A]'>Kamil</span> </h1>
           <p className={ `${styles.heroSubText} mt-4 text-slate-800` }>I am a student, software developer <br className='sm:block hidden' /> and a motivated learner!</p>
         </div>
 
@@ -27,7 +27,7 @@ const Hero = () => {
 
       <SoulCanvas />
 
-      <div className='absolute w-full xs:bottom-10 bottom-32 flex justify-center items-center'>
+      <div className='absolute w-full xs:bottom-8 bottom-32 flex justify-center items-center'>
 
         <a href="#about">
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-[#1C2833] flex justify-center items-start p-2'>
