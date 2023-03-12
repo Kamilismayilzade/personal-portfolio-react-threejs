@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import { styles } from '../styles'
-import { SoullesFace } from './canvas'
+import { SoulCanvas } from './canvas'
 
 
 
@@ -19,13 +19,13 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={` ${styles.heroHeadText} text-slate-800`}>Hi, I'm <span className='text-[#4A235A]'>Kamil</span> </h1>
+          <h1 className={` ${styles.heroHeadText} text-slate-900`}>Hi, I'm <span className='text-[#4A235A]'>Kamil</span> </h1>
           <p className={ `${styles.heroSubText} mt-4 text-slate-800` }>I am a student, software developer <br className='sm:block hidden' /> and a motivated learner!</p>
         </div>
 
       </div>
 
-      <SoullesFace />
+      <SoulCanvas />
 
     </section>
 
