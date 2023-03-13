@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
 
-    <section className='relative w-full h-screen mx-auto '>
+    <section className='relative w-full h-screen mx-auto border-[1px] border-slate-800 border-opacity-10'>
 
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-6xl mx-auto flex flex-row items-start gap-5`}>
 
