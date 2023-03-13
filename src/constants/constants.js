@@ -19,6 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    office,
     carrent,
     jobit,
     tripguide,
@@ -116,57 +117,35 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Service Desk Agent",
+      company_name: "Kontakt Home",
+      icon: office,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2021 - October 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contacting with customers for answering their questions and addressing their concerns.",
+        "Diagnosing and resolving technical issues that customers may encounter with the company's products or services.",
+        "Escalating complex issues to higher-level technical support or other departments within the company and ensuring that the customer is informed of the escalation process.",
+        "Documenting each customer interactions in a system for reporting, training, and quality assurance purposes.",
+        'Providing excellent, empathetic customer service to all customers to ensure that their needs are met.'
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Systems Engineer",
+      company_name: "Infosys",
+      icon: office,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2022 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Writing VBA code to automate tasks, such as formatting data, sorting and filtering data, generating reports, and performing calculations.",
+        "Designing and developing custom Excel macros that automate complex workflows and improve productivity.",
+        "Troubleshooting and debugging code to identify and fix errors and optimize performance.",
+        "Developing user-friendly interfaces and dashboards to make it easier for non-technical users to interact with the spreadsheet.",
+        'Working with stakeholders to understand their requirements and developing solutions that meet their needs.',
+        'Assist other staff with development activities.',
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
