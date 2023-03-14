@@ -114,6 +114,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.yellow-text {
+  color: #F1C40F;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
