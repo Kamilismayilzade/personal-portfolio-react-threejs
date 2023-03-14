@@ -74,7 +74,7 @@ const Works = () => {
         ))}
       </div>
 
-      <p className={styles.sectionSubText} >Want to see more? Refer to my <a className='font-bold underline text-[20px]' onClick={ ()=> window.open('https://github.com/Kamilismayilzade?tab=repositories', '_blank') } >Github.</a> </p>
+      <p className={` ${styles.sectionSubText} 2xl:mt-0 mt-2`} >Want to see more? Refer to my <a className='font-bold underline text-[20px]' onClick={ ()=> window.open('https://github.com/Kamilismayilzade?tab=repositories', '_blank') } >Github.</a> </p>
 
     </>
 
