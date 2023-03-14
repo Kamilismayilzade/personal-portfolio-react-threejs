@@ -24,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    socialmedia,
+    forkify,
+    cardgame,
   } from "../assets";
   
   export const navLinks = [
@@ -177,67 +180,85 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Social Media",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based demo platform where users can connect with friends, family, and like-minded individuals from around the world via variety of features, including customizable profiles, private messaging, photo and video sharing, groups and forums, and more. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "tailwind",
+        //   color: "pink-text-gradient",
+        // },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: 'css',
           color: "pink-text-gradient",
-        },
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: socialmedia,
+      source_code_link: "https://github.com/Kamilismayilzade/social-media-react",
     },
     {
-      name: "Job IT",
+      name: "Forkify ",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web recipe application is an easy-to-use platform features a vast collection of delicious and nutritious recipes that are perfect for any occasion. With step-by-step instructions and helpful tips it will guide you through every recipe with ease. ",
       tags: [
+        {
+          name: "javascript",
+          color: "yellow-text",
+        },
+        // {
+        //   name: "restapi",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "scss",
+        //   color: "pink-text-gradient",
+        // },
+        {
+          name: 'parcel',
+          color: 'pink-text-gradient',
+        },
+      ],
+      image: forkify,
+      source_code_link: "https://github.com/Kamilismayilzade/forkify-recipe-app",
+    },
+    {
+      name: "Card Memory",
+      description:
+        "Fun and addictive card game that will challenge your memory and concentration. Similar to Mahjong, the objective of the game is to find matching pairs of cards and remove them from the board. With multiple levels of difficulty and a variety of themes to choose from, it offers endless hours of entertainment for players of all ages.",
+      tags: [
+        // {
+        //   name: "nextjs",
+        //   color: "blue-text-gradient",
+        // },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
+
         {
           name: "react",
           color: "blue-text-gradient",
         },
+
         {
-          name: "restapi",
+          name: "pexelsapi",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cardgame,
+      source_code_link: "https://github.com/Kamilismayilzade/card-memory-game-react",
     },
   ];
   
